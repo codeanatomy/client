@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+
+    <!-- SECTION START: carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -9,10 +11,12 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-inline-block w-100" src="../assets/logocode.jpeg" alt="First slide" height="600px">
-          <div class="carousel-caption d-none d-md-block" >
-            <div class="col w-100" style="color: black; background-color: white; opacity: 0.7">
-              <router-link to="/products"><h1>APPLY NOW</h1></router-link>
-              <h3>Summer Bootcamp 1 - 5 July 2019</h3>
+          <div data-aos="zoom-in-up" data-aos-easing="ease-in-out" data-aos-duration="1500">
+            <div class="carousel-caption d-md-block" >
+              <div class="col w-100" style="color: black; background-color: white; opacity: 0.7">
+                <a href="https://forms.gle/Ks4w6RFPCPskK9yP7" target="_blank"><h1>APPLY NOW</h1></a>
+                <h3>Summer Bootcamp 1 - 5 July 2019</h3>
+              </div>
             </div>
           </div>
         </div>
@@ -26,39 +30,196 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <div class="row " style="background:black">
-      <div class="col-6 offset-5 align-items-center mt-3">
-        <h3 style="color: white">Curriculum</h3>
+    <!-- SECTION END: carousel -->
+
+    <!-- SECTION START: ABOUT CODE ANATOMY -->
+    <div class="row" style="background:black">
+      <div class="col-12 text-center mt-3">
+        <div data-aos="fade-right" data-aos-duration="3000">
+          <h3 style="color: white">ABOUT CODE ANATOMY</h3>
+        </div>
       </div>
-      <div class="col-11 mx-5 mb-5">
-        <div class="card text-center">
-          <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">HTML & CSS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Javascript</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
+
+      <div class="row mb-3 mx-auto">
+        <div class="col-lg-6 col-md-12">
+          <div data-aos="flip-left" data-aos-duration="3000">
+            <div class="card indigo z-depth-2">
+              <div class="card-body">
+                <h3 class="text-uppercase font-weight-bold text-center amber-text mt-2 mb-3"><strong>WHY COMPUTER SCIENCE</strong><i class="far fa-heart ml-3"></i></h3>
+                <p class="white-text mb-0">
+                  <ul>
+                    <li> <strong> Improved Hiring Prospects: </strong> one of the highest salaries for fresh graduate students</li>
+                    <li> <strong> A lot of companies need: </strong> more computing jobs available than there are qualified people to fill them </li>
+                    <li> <strong> Unlimited future opportunities: </strong> building the next unicorn startup? digitalization of multinational companies? POSSIBLE!</li>
+                    <li> <strong> Strengthening your main major choice: </strong> Want to follow your dream of working in the arts or health care or education? You can still major (or minor or have a concentration) in Computer Science</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="card-body">
-            <h5 class="card-title">HTML & CSS</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Tell Me More</a>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <div data-aos="flip-right" data-aos-duration="3000">
+            <div class="card indigo z-depth-2">
+              <div class="card-body">
+                <h3 class="text-uppercase  text-center font-weight-bold amber-text mt-2 mb-3"><strong> WHY JOIN OUR BOOTCAMP </strong><i class="far fa-heart ml-3"></i></h3>
+                <p class="white-text mb-0">
+                  <ul>
+                    <li> <strong> Gain Productive holiday: </strong> Imagine he/she can make a website during holiday</li>
+                    <li> <strong> Improve the interest to computer science: </strong> We will prove that computer science is very fun </li>
+                    <li> <strong> Make you smarter than other: </strong> Equip them with fundamental knowledge of programming to help them soar in the college and get the optimum score to choose their preferred universities</li>
+                    <li> <strong> Mental Toughness: </strong> Gain a strong mentality needed for fast-paced and highly demanded modern world, especially being as a programmer in this digital industry </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
           </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- SECTION END: ABOUT CODE ANATOMY -->
+
+    <!-- NEW SECTION: CURRICULUM -->
+    <div class="container">
+      <div class="col-12 text-center mt-3">
+        <div data-aos="fade-right" data-aos-duration="3000">
+          <h3>OUR CURRICULUM</h3>
+        </div>
+      </div>
+      <div class="row mb-3">
+          <div class="col-lg-4 col-md-6">
+            <div data-aos="fade-up-right" data-aos-duration="3000">
+              <div class="card ">
+                  <div class=" card-header text-center">
+                    Basic Knowledge of Website
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-center">HTML & CSS</h4>
+                    <p class="card-text">
+                      <ul>
+                        <li> Learn HTML structure</li>
+                        <li> Learn elements in HTML</li>
+                        <li> Enable CSS to your website </li>
+                      </ul>
+                    </p>
+                    <div class="text-center">
+                      <router-link to="/products" class="btn btn-warning">Learn More</router-link>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div data-aos="fade-up" data-aos-duration="3000">
+              <div class="card">
+                  <div class=" card-header text-center">
+                    The Most Used Programming Language
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-center"> Javascript </h4>
+                    <p class="card-text">
+                      <ul>
+                        <li> Data Type in Javascript</li>
+                        <li> Operational in Javascript</li>
+                        <li> Control Flow </li>
+                      </ul>
+                    </p>
+                    <div class="text-center">
+                      <a class="btn btn-warning text-center">Learn More</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div data-aos="fade-up-left" data-aos-duration="3000">
+              <div class="card">
+                  <div class=" card-header text-center">
+                    Get Your Knowledge to the Sky
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-center"> Database </h4>
+                    <p class="card-text">
+                      <ul>
+                        <li> Basic Realtime Database </li>
+                        <li> Get your domain </li>
+                        <li> Website Deployment </li>
+                      </ul>
+                    </p>
+                    <div class="text-center">
+                      <a class="btn btn-warning"> Learn More </a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- NEW SECTION: RESULT -->
+    <div class="row" style="background:black">
+      <div class="col-6 offset-5 align-items-center mt-3">
+        <div data-aos="fade-right" data-aos-duration="3000">
+          <h3 style="color: white"> BOOTCAMP RESULTS </h3>
+        </div>
+      </div>
+      <div class="col-12">
+        <div data-aos="fade-right" data-aos-duration="3000">
+          <div class="row mb-5">
+            <div class="col-lg-6 col-md-12 ml-5">
+              <div class="card text-white bg-dark" >
+                <div class="card-body">
+                  <h4 class="card-title">His/her First Website: </h4>
+                  <p class="card-text">
+                    <ul>
+                      <li>tell the world his/her handmade website</li>
+                      <li>build another website after bootcamp? Why not? It is very possible!</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div data-aos="fade-left" data-aos-duration="3000">
+          <div class="row justify-content-end mb-5">
+            <div class="col-lg-6 col-md-12 mr-5">
+              <div class="card bg-warning" >
+                <div class="card-body">
+                  <h4 class="card-title">Quiz & Self-Assessment Test:  </h4>
+                  <p class="card-text">
+                    <ul>
+                      <li>Are you curious about how computers and humans communicate?</li>
+                      <li>Do you consider yourself imaginative?</li>
+                      <li>Do you enjoy solving problems?</li>
+                      <li>Are you interested in computer programming?</li>
+                      <li>Do you communicate well?</li>
+                      <li>Do you consider yourself a team player?</li>
+                      <li>Are you detail oriented?</li>
+                      <li>Are you fascinated by how computers function?</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="col-12 mb-3">
+        <div class="text-center">
+          <a href="https://forms.gle/Ks4w6RFPCPskK9yP7" target="_blank" class="btn btn-danger text-center"><h1>APPLY NOW</h1></a>
         </div>
       </div>
     </div>
-    <div class="container">
-      
-      <h3>The way we work</h3>
-    </div>
+    <!-- END SECTION: RESULT -->
 
-  
   </div>
 </template>
 

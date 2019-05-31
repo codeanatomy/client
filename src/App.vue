@@ -3,14 +3,17 @@
     <app-navbar />
     
     <router-view/>
+    <app-footer />
   </div>
 </template>
 
 <script>
 import Navbar from '@/views/Navbar.vue'
+import Footer from '@/views/Footer.vue'
 export default {
   components: {
     "app-navbar": Navbar,
+    "app-footer": Footer
   }
 }
 </script>
