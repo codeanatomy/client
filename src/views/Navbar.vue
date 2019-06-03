@@ -8,10 +8,10 @@
             <div class="collapse navbar-collapse ml-5" id="navbarNavAltMarkup">
                 <div class="navbar-nav" >
                     <a class="nav-item nav-link active" href="#" v-if="!isLogin" > <router-link to="/" style="color:black"> Home </router-link> <span class="sr-only">(current)</span></a>
-                    <router-link to="/questions/" style="color:black"> <a class="nav-item nav-link active" href="#" style="color:black" @click.prevent="showAllArticle">  Courses  <span class="sr-only">(current)</span></a> </router-link>
-                    <router-link to="/login/" style="color:black"> <a class="nav-item nav-link" href="#" v-if="!isLogin"  style="color:black">  Login </a> </router-link>
+                    <!-- <router-link to="/course" style="color:black"> <a class="nav-item nav-link active" href="#" style="color:black" @click.prevent="showAllArticle">  Courses  <span class="sr-only">(current)</span></a> </router-link> -->
+                    <!-- <router-link to="/login/" style="color:black"> <a class="nav-item nav-link" href="#" v-if="!isLogin"  style="color:black">  Login </a> </router-link>
                     <router-link to="/login/" style="color:black"> <a class="nav-item nav-link" href="#" v-if="!isLogin"  style="color:black">  Register </a></router-link>
-                    <a class="nav-item nav-link" href="#" v-if="isLogin" @click.prevent="logOut" style="color:black">Logout </a>
+                    <a class="nav-item nav-link" href="#" v-if="isLogin" @click.prevent="logOut" style="color:black">Logout </a> -->
                 </div>
             </div>
             <router-link to="/create"><button class="btn btn-outline-success my-2 my-sm-0 mr-3" v-if="isLogin"> Ask Question</button></router-link>
@@ -65,10 +65,10 @@ export default {
         })
       },
       showAllArticle() {
-        this.$router.push(`/questions/`)
+        this.$router.push(`/course/`)
         // this.$store.dispatch('getAllQuestions')
-        this.$store.commit('updateAllQuestionsState', {boolean: true})
-        this.$store.commit('updateQuestionsDetailState', {boolean: false})
+        // this.$store.commit('updateAllQuestionsState', {boolean: true})
+        // this.$store.commit('updateQuestionsDetailState', {boolean: false})
       }
   }
 };

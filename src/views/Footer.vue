@@ -58,9 +58,7 @@
                     <!-- Content -->
                     <h6 class="text-uppercase font-weight-bold">CODE ANATOMY</h6>
                     <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; border-color: #FFFF00">
-                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                    consectetur
-                    adipisicing elit.</p>
+                    <p> Code Anatomy is a pioneer in programming education for high school students in Indonesia. Our aim is to support students in determining their passion in a IT-related major in college/universities and to help the them to develop their programming skills early. </p>
 
                 </div>
                 <!-- Grid column -->

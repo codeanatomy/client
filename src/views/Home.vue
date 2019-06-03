@@ -2,7 +2,7 @@
   <div class="home">
 
     <!-- SECTION START: carousel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 50px">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -10,15 +10,15 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-inline-block w-100" src="../assets/logocode.jpeg" alt="First slide" height="600px">
-          <div data-aos="zoom-in-up" data-aos-easing="ease-in-out" data-aos-duration="1500">
+          <img class="d-inline-block w-100" src="../assets/mainbanner1.png" alt="First slide" height="600px">
+          <!-- <div data-aos="zoom-in-up" data-aos-easing="ease-in-out" data-aos-duration="1500"> -->
             <div class="carousel-caption d-md-block" >
               <div class="col w-100" style="color: black; background-color: white; opacity: 0.7">
-                <a href="https://forms.gle/Ks4w6RFPCPskK9yP7" target="_blank"><h1>APPLY NOW</h1></a>
-                <h3>Summer Bootcamp 1 - 5 July 2019</h3>
+                <a href="https://forms.gle/Ks4w6RFPCPskK9yP7" target="_blank" style="color: #9b870c"><h1>APPLY NOW</h1></a>
+                <h3> Jakarta Summer Javascript Bootcamp, 1 - 5 July 2019</h3>
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -33,7 +33,7 @@
     <!-- SECTION END: carousel -->
 
     <!-- SECTION START: ABOUT CODE ANATOMY -->
-    <div class="row" style="background:black">
+    <div class="row mx-auto" style="background:black">
       <div class="col-12 text-center mt-3">
         <div data-aos="fade-right" data-aos-duration="3000">
           <h3 style="color: white">ABOUT CODE ANATOMY</h3>
@@ -161,14 +161,14 @@
     </div>
 
     <!-- NEW SECTION: RESULT -->
-    <div class="row" style="background:black">
+    <div class="row mx-auto" style="background:black">
       <div class="col-6 offset-5 align-items-center mt-3">
         <div data-aos="fade-right" data-aos-duration="3000">
           <h3 style="color: white"> BOOTCAMP RESULTS </h3>
         </div>
       </div>
       <div class="col-12">
-        <div data-aos="fade-right" data-aos-duration="3000">
+        <div data-aos="zoom-in-up" data-aos-duration="3000">
           <div class="row mb-5">
             <div class="col-lg-6 col-md-12 ml-5">
               <div class="card text-white bg-dark" >
@@ -188,7 +188,7 @@
       </div>
 
       <div class="col-12">
-        <div data-aos="fade-left" data-aos-duration="3000">
+        <div data-aos="zoom-in-up" data-aos-duration="3000">
           <div class="row justify-content-end mb-5">
             <div class="col-lg-6 col-md-12 mr-5">
               <div class="card bg-warning" >
