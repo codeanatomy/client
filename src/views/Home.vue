@@ -173,13 +173,40 @@
             <div class="col-lg-6 col-md-12 ml-5">
               <div class="card text-white bg-dark" >
                 <div class="card-body">
-                  <h4 class="card-title">His/her First Website: </h4>
+                  <h4 class="card-title"> Your Handmade Website: <i class="fas fa-trophy"></i> </h4>
                   <p class="card-text">
                     <ul>
-                      <li>tell the world his/her handmade website</li>
-                      <li>build another website after bootcamp? Why not? It is very possible!</li>
+                      <li> A website to promote you</li>
+                      <li> A strong fondation to build other sophisticated website </li>
                     </ul>
                   </p>
+                  <p>
+                    <button class="btn btn-warning" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Example Website to Build</button>
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <div class="card collapse multi-collapse" id="multiCollapseExample1">
+                        <a href="https://hermsz.github.io/" target="_blank" style="color:black; text-align:center">Website 1: Hotel Website (Static Page) </a>
+                        <div class="box">
+                          <img src="../assets/websitepreview1.jpg" width = "100%" height = "200px" />
+                        </div>
+                        <div class="card card-body" style="color: black">
+                          Let people know that you run a hotel and let them book your hotel using available booking channel.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class=" card collapse multi-collapse" id="multiCollapseExample2">
+                        <a href="https://williamsuryawan.github.io/" target="_blank" style="color:black; text-align:center">Website 2: Watch Collection (Static Page)</a>
+                        <div class="box">
+                          <img src="../assets/websitepreview2.jpg" width = "100%" height = "200px" />
+                        </div>
+                        <div class="card card-body" style="color: black">
+                          You have a business and you want to present all available products that you can sell on a website.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -193,7 +220,7 @@
             <div class="col-lg-6 col-md-12 mr-5">
               <div class="card bg-warning" >
                 <div class="card-body">
-                  <h4 class="card-title">Quiz & Self-Assessment Test:  </h4>
+                  <h4 class="card-title">Quiz & Self-Assessment Test: <i class="fas fa-poll"></i> </h4>
                   <p class="card-text">
                     <ul>
                       <li>Are you curious about how computers and humans communicate?</li>
