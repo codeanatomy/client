@@ -17,23 +17,15 @@
                 <div class="col-md-6 col-lg-7 text-center text-md-right">
 
                 <!-- Facebook -->
-                <a class="fb-ic">
+                <a class="fb-ic" href="https://www.facebook.com/codeanatomyid/" target="_blank">
                     <i class="fab fa-facebook-f white-text mr-4"> </i>
                 </a>
-                <!-- Twitter -->
-                <a class="tw-ic">
-                    <i class="fab fa-twitter white-text mr-4"> </i>
-                </a>
-                <!-- Google +-->
-                <a class="gplus-ic">
-                    <i class="fab fa-google-plus-g white-text mr-4"> </i>
-                </a>
                 <!--Linkedin -->
-                <a class="li-ic">
+                <a class="li-ic" href="https://www.linkedin.com/company/codeanatomy/" target="_blank">
                     <i class="fab fa-linkedin-in white-text mr-4"> </i>
                 </a>
                 <!--Instagram-->
-                <a class="ins-ic">
+                <a class="ins-ic" href="https://www.instagram.com/code.anatomyid/" target="_blank">
                     <i class="fab fa-instagram white-text"> </i>
                 </a>
 
@@ -70,16 +62,16 @@
                 <h6 class="text-uppercase font-weight-bold">Products</h6>
                 <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; border-color: #FFFF00">
                 <p>
-                <a href="#!" style="color:white">Summer Bootcamp</a>
+                <router-link to="/webdev" style="color:white">Website Development</router-link>
                 </p>
                 <p>
-                <a href="#!" style="color:white">HTML & CSS</a>
+                <router-link to="/event" style="color:white">Networking Event</router-link>
                 </p>
                 <p>
-                <a href="#!" style="color:white">Javascript</a>
+                <router-link to="/course" style="color:white">Coding Bootcamp for High School</router-link>
                 </p>
                 <p>
-                <a href="#!" style="color:white">Basic Database</a>
+                <router-link to="#!" style="color:white">Digital Transformation</router-link>
                 </p>
 
             </div>
