@@ -74,7 +74,7 @@
             </li>
         </ul>
         <div class="tab-content">
-            <div id="eventdetail" class="tab-pane fade in active">
+            <div id="eventdetail" class="container tab-pane active">
                 <h3> ABOUT THE EVENT </h3>
                 <p>IT can be a source of frustration for non-technical/business-background leaders. Our event “Essential IT Skill for Non-IT Business Leaders” is intended to help leaders from various backgrounds and areas of expertise to work together efficiently and productively with IT team toward future success. Taking from the speakers, who have been involved in IT and business-related roles through formal education and working experiences, all the participants can learn multiple perspectives in optimizing their existing leadership roles in working with IT team to draw better decisions, deliver more impactful result, resolve IT issues faster and use the current technology for company’s business growth in each industry.</p>
                 <h5> Discussion List: </h5>
@@ -86,11 +86,11 @@
                     <li> How can we evaluate and assess the existing IT team? </li>
                 </ul>
             </div>
-            <div id="eventspeakers" class="tab-pane fade">
+            <div id="eventspeakers" class="container tab-pane fade">
                 <h3> SPEAKER</h3>
                 <h6> Coming Soon</h6>
             </div>
-            <div id="eventparticipants" class="tab-pane fade">
+            <div id="eventparticipants" class="container tab-pane fade">
                 <h3> PARTICIPANTS </h3>
                 <ul>
                     <li>Manager and corporate strategy who want to improve their roles related to IT management </li>
@@ -99,7 +99,7 @@
                     <li> Co-Founder/CEO/COO/Director </li>
                 </ul>
             </div>
-            <div id="eventschedule" class="tab-pane fade">
+            <div id="eventschedule" class="container tab-pane fade">
                 <h3> SCHEDULE </h3>
                 <table class="table table-hover" style="text-align: center">
                     <thead>
@@ -125,7 +125,7 @@
                 </table>
                 
             </div>
-            <div id="eventregister" class="tab-pane fade">
+            <div id="eventregister" class="container tab-pane fade">
                 <h3> REGISTER NOW </h3>
                 <p> Please register yourself through this link: COMING SOON</p>
             </div>

@@ -20,7 +20,11 @@
                 <tbody>
                     <tr>
                         <th scope="row" rowspan="6">1</th>
-                        <td rowspan="6" style="color: red;"> <a href="https://www.bigdiscount.com.au/" target="_blank"><img src="../assets/portofolio_andy_bigdiscount.jpeg" style="width: 300px; overflow-y: scroll"/> </a></td>
+                        <td rowspan="6" style="color: red; max-height: 100px;"> 
+                            <a href="https://www.bigdiscount.com.au/" target="_blank">
+                                <img src="../assets/portofolio_andy_bigdiscount.jpeg" style="width: 300px; overflow-y: scroll"/>
+                            </a>
+                        </td>
                         <td colspan="2" style="text-align:center; font-size: 20px"><strong>Big Discount</strong></td>
                     </tr>
                     <tr>
