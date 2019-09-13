@@ -91,5 +91,6 @@ export default {
   components: {
     HelloWorld,
   },
+  
 };
 </script>
